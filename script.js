@@ -45,6 +45,7 @@ $(function(){
         $('img').attr("alt",data.weather[0].main);
       }).fail(function (data){
         // 通信失敗
+        alert('通信に失敗しました。');
       });
   });
 });
